@@ -1,0 +1,7 @@
+
+title = "DevSecOps Lab Secret Detection"
+
+[[rules]]
+id = "lab-fake-aws-key"
+description = "Detect the published AWS example key used in this lab"
+regex = '''AKIAIOSFODNN7EXAMPLE'''
